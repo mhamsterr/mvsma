@@ -2,7 +2,9 @@
 
 mvsma (aka mhamster's very simple modrinth api (wrapper)) is a super simple modrinth api wrapper for python.
 
-It provides plain and simple access to [modrinth's api](https://api.modrinth.com) endpoints.
+It provides plain and simple access to [modrinth's api](https://api.modrinth.com) endpoints and returns their plain responses. Very easy to use!
+
+For information about api models see [modrinth api documentation](https://docs.modrinth.com/api-spec/#tag/project_model).
 
 # Examples
 
