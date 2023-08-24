@@ -1,10 +1,24 @@
 # mvsma
 
-mvsma, aka mhamster's very simple modrinth api (wrapper), is a super simple modrinth api wrapper for python.
+*mvsma, aka mhamster's very simple modrinth api (wrapper), is a super simple modrinth api wrapper for python.*
 
-It provides plain and simple access to [modrinth's api](https://api.modrinth.com) endpoints and returns their plain responses. Very easy to use!
+Package provides plain and simple access to [modrinth's api](https://api.modrinth.com) endpoints and returns json responses. Very easy to use!
 
 For information about api models see [modrinth api documentation](https://docs.modrinth.com/api-spec/#tag/project_model).
+
+### But why?
+
+--- 
+Because why would you want to mess with api yourself, when some random guy from internet (like me) can do it for you?
+
+# Issues and contributions
+
+*Want to improve this project? Feel free to create forks and/or pull requests!*
+
+
+*Something does not work as intended? Feel free to open issue and describe what actually went wrong.*
+
+---
 
 # Examples
 
@@ -46,13 +60,13 @@ response = m.random_projects(count=11)
 print(response)
 ```
 
-# Documentation:
-TODO
-
 # Installation
 ```
 pip install mvsma
 ```
+
+# Documentation:
+TODO
 
 # License:
 MIT License, find more in 'LICENSE' file
