@@ -10,7 +10,7 @@ class Modrinth:
 
     def __init__(self):
         self._apiUrl = "https://api.modrinth.com/v2"
-        self.DEFAULT_UA = "mhamsterr/very-simple-modrinth-api (t.me/mhamsterr)"
+        self.DEFAULT_UA = f"mhamsterr/mvsma (t.me/mhamsterr)"
         self.ua = self.DEFAULT_UA
         self.headers = {
             'Content-Type': 'application/json',

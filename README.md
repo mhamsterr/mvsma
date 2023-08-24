@@ -8,7 +8,7 @@ For information about api models see [modrinth api documentation](https://docs.m
 
 # Examples
 
-Search:
+Search for a projects:
 ```py
 from mvsma import Modrinth
 
@@ -21,7 +21,7 @@ print(response["hits"][0])
 
 ```
 
-Versions:
+Get versions of a project:
 ```py
 from mvsma import Modrinth
 
@@ -32,6 +32,18 @@ m.ua = 'Package example from https://github.com/mhamsterr/mvsma' # Edit User-Age
 response = m.project_versions(slug="supercoolmod")
 print(response)
 
+```
+
+Get list of random projects
+```py
+from mvsma import Modrinth
+
+m = Modrinth()
+# Get list of random projects
+m.ua = 'Package example from https://github.com/mhamsterr/mvsma' # Edit User-Agent of request so everyone will know who we are and what we are doing
+
+response = m.random_projects(count=11)
+print(response)
 ```
 
 # Documentation:
