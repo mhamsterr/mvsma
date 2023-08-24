@@ -1,6 +1,6 @@
 # mvsma
 
-*mvsma, aka mhamster's very simple modrinth api (wrapper), is a super simple modrinth api wrapper for python.*
+mvsma, aka *mhamster's very simple modrinth api (wrapper)*, is a super simple modrinth api wrapper for python.
 
 Package provides plain and simple access to [modrinth's api](https://api.modrinth.com) endpoints and returns json responses. Very easy to use!
 
